@@ -1,0 +1,25 @@
+{
+  "name": "Remove Copy From Layers",
+  "description" : "Removes copy, copy 2, etc from all layers.",
+  "author" : "Emrah Gunduz",
+  "authorEmail" : "emrah.gunduz@markakod.com",
+  "homepage": "https://emrahgunduz.com",
+  "version" : "1.0.4",
+  "identifier" : "com.emrahgunduz.removecopy",
+  "compatibleVersion": "45",
+  "bundleVersion": "1",
+  "commands" : [
+    {
+      "name" : "Remove 'copy' from All Layer Names",
+      "script" : "src/rename.js",
+      "handler" : "removeCopy",
+      "identifier" : "rename-remove-copy"
+    }
+  ],
+  "menu" : {
+    "title" : "Remove Copy",
+    "items" : [
+      "rename-remove-copy"
+    ]
+  }
+}
